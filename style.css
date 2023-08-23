@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.item{
+    background-color: rgb(176, 114, 226);
+    height: 75px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-inline: 32px;
+    gap: 16px;
+
+}
+
+
+.button{
+    padding: 2px 8px;
+}
+
+
+.numeros{
+    flex-grow:1 ;
+    padding: 0px 8px;
+}
+
+.numeros span{
+    background-color: rgb(98, 0, 255);
+    display: inline-block;
+    width: 50px;
+    text-align: center ;
+}
